@@ -1,0 +1,38 @@
+{
+    "name": "andremyid/framework",
+    "description": "Andremyid (http://www.andre.my.id) Framework",
+    "keywords": ["andremyid", "framework"],
+    "homepage": "http://www.andre.my.id",
+    "type": "library",
+    "license": "Project",
+    "authors": [
+        {
+            "name": "Andre Myid",
+            "email": "android@andre.my.id",
+            "homepage": "http://www.andre.my.id",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "replace": {
+        "andremyid/activitylog": "self.version",
+        "andremyid/alert": "self.version",
+        "andremyid/auth": "self.version"
+    },
+    "require-dev": {
+        "andremyid/generators": "self.version"
+    },
+    "autoload": {
+        "psr-0": {
+            "Andremyid": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
